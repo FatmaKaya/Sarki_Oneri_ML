@@ -1,23 +1,46 @@
-## Basit bir şarkı önerisi sistemi 
+## Basit Bir ÅarkÄ± Ã–nerisi Sistemi 
 
- Milyon Şarkıları Datasetini kullanarak basit bir şarkı önerisi sisteminin oluşturulduğu örneğimizde kullanılan Milyon Şarkıları Dataseti;
- [millionsong](https://static.turi.com/datasets/millionsong/10000.txt) ve [song_data](https://static.turi.com/datasets/millionsong/song_data.csv) veri kümelerini içeren, kullanıcıların şarkıyı dinledikten sonra verdiği puanla çeşitli web sitesinden gelen şarkıların bir karışımıdır. 
+ Milyon ÅarkÄ±larÄ± Datasetini kullanarak basit bir ÅŸarkÄ± Ã¶nerisi sisteminin oluÅŸturulduÄŸu Ã¶rneÄŸimizde kullanÄ±lan Milyon ÅarkÄ±larÄ± Dataseti;
+ [millionsong](https://static.turi.com/datasets/millionsong/10000.txt) ve [song_data](https://static.turi.com/datasets/millionsong/song_data.csv) veri kÃ¼melerini iÃ§eren, kullanÄ±cÄ±larÄ±n ÅŸarkÄ±yÄ± dinledikten sonra verdiÄŸi puanla Ã§eÅŸitli web sitesinden gelen ÅŸarkÄ±larÄ±n bir karÄ±ÅŸÄ±mÄ±dÄ±r. 
 
 
-###### Örneğin içeriği:
-* İki veri kümesinin birleştirilmesi
-* Birleştirdiğimiz verisetinin içeriğindeki veri(satır) ve öznitelik(sütun) sayılarının yazdırılması
-* Verisetinin içeriğinin gösterilmesi
-* Verisetinin eğitim ve test verisi olarak ayırılması
-* Kişiselleştirme yapmadan Popülerliğe dayalı bir öneri sınıfı örneğinin oluşturulması
-* Benzerlik bazlı bir öneri sınıfı örneği kullanılarak bir kullanıcının beğeneceği şarkıların listesini tahmin etmeye çalışmak
-* Şarkı ismine göre benzer şarkıların önerilmesine dair bir örnek
-* Kullanıcınin girdiği şarkıya göre öneri verilen kısm
+###### Ã–rneÄŸin iÃ§eriÄŸi:
+* Ä°ki veri kÃ¼mesinin birleÅŸtirilmesi
+* BirleÅŸtirdiÄŸimiz verisetinin iÃ§eriÄŸindeki veri(satÄ±r) ve Ã¶znitelik(sÃ¼tun) sayÄ±larÄ±nÄ±n yazdÄ±rÄ±lmasÄ±
+* Verisetinin iÃ§eriÄŸinin gÃ¶sterilmesi
+* Verisetinin eÄŸitim ve test verisi olarak ayÄ±rÄ±lmasÄ±
+* KiÅŸiselleÅŸtirme yapmadan PopÃ¼lerliÄŸe dayalÄ± bir Ã¶neri sÄ±nÄ±fÄ± Ã¶rneÄŸinin oluÅŸturulmasÄ±
+* Benzerlik bazlÄ± bir Ã¶neri sÄ±nÄ±fÄ± Ã¶rneÄŸi kullanÄ±larak bir kullanÄ±cÄ±nÄ±n beÄŸeneceÄŸi ÅŸarkÄ±larÄ±n listesini tahmin etmeye Ã§alÄ±ÅŸmak
+* ÅarkÄ± ismine gÃ¶re benzer ÅŸarkÄ±larÄ±n Ã¶nerilmesine dair bir Ã¶rnek
+* KullanÄ±cÄ±nÄ±n girdiÄŸi ÅŸarkÄ±ya gÃ¶re Ã¶neri verilen kÄ±sm
 
-###### Yararlanılan Kaynaklar
+###### YararlanÄ±lan Kaynaklar
 
 * [How to build a simple song recommender system](https://towardsdatascience.com/how-to-build-a-simple-song-recommender-296fcbc8c85)
-* [Öneri için kullanılan algoritmanın kaynağı](https://github.com/llSourcell/recommender_live/blob/master/Recommenders.py)
+* [Ã–neri iÃ§in kullanÄ±lan algoritmanÄ±n kaynaÄŸÄ±](https://github.com/llSourcell/recommender_live/blob/master/Recommenders.py)
 
 
-###### Örneğe dair ekran alıntıları:
+###### Ã–rneÄŸe dair ekran alÄ±ntÄ±larÄ±:
+* Verisetinin iÃ§eriÄŸindeki veri(satÄ±r) ve Ã¶znitelik(sÃ¼tun) sayÄ±larÄ±:
+
+![DS_bilgi](https://github.com/FatmaKaya/Sarki_Oneri_ML/blob/master/EkranAlintilari/Ds_bilgi.PNG)
+
+* Verisetinin iÃ§eriÄŸi:
+
+![DS_icerik](https://github.com/FatmaKaya/Sarki_Oneri_ML/blob/master/EkranAlintilari/Ds_i%C3%A7erik.PNG)
+
+* KiÅŸiselleÅŸtirme yapmadan PopÃ¼lerliÄŸe dayalÄ± bir Ã¶neri:
+
+![Populer_sarkilar](https://github.com/FatmaKaya/Sarki_Oneri_ML/blob/master/EkranAlintilari/Populer_sarkilar.PNG)
+
+* Benzerlik bazlÄ± Ã¶neri:
+
+![kullaniciya_oneri](https://github.com/FatmaKaya/Sarki_Oneri_ML/blob/master/EkranAlintilari/kullniciya_oneri.PNG)
+
+* ÅarkÄ± ismine gÃ¶re benzer ÅŸarkÄ±larÄ±n Ã¶nerilmesi:
+
+![sarkiya_oneri](https://github.com/FatmaKaya/Sarki_Oneri_ML/blob/master/EkranAlintilari/Sarkiya_oneri.PNG)
+
+* KullanÄ±cÄ±nÄ±n girdiÄŸi ÅŸarkÄ±ya gÃ¶re Ã¶neri:
+
+![oneri](https://github.com/FatmaKaya/Sarki_Oneri_ML/blob/master/EkranAlintilari/oneri.PNG)
